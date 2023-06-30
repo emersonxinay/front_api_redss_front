@@ -1,0 +1,26 @@
+.app-container {
+  text-align: center;
+}
+
+.post-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Mostrar 3 columnas */
+  grid-gap: 20px; /* Espacio entre los elementos */
+  padding: 0;
+}
+
+.post {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.post-content {
+  font-weight: bold;
+}
+
+.user-id a {
+  color: #007bff;
+  text-decoration: none;
+}
